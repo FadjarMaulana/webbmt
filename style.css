@@ -1,0 +1,33 @@
+.header {
+    background-color: black;
+}
+
+.header .bmt {
+    color: rgb(210, 105, 30);
+}
+
+.header .logo {
+    margin-top: -70px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 170px;
+}
+
+.subheader ul {
+    list-style-type: none;
+}
+
+.subheader .bangun {
+    margin-top: 50px;
+    float: left;
+    padding-top: 10px;
+    width: 90px;
+    margin-left: 10px;
+}
+
+.subheader ul li {
+    margin-top: -50px;
+    float: right;
+    padding-top: 40px;
+    width: 110px;
+}
