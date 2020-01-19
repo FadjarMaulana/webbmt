@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <title>Web BMT</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     
     <div class="header">
-        <p class="bmt"> BMT (021) 8943327</p>
+        <p class="bmt"><i class="fa fa-phone-square" aria-hidden="true"></i>BMT (021) 8943327</p>
         <p><a href="#">d.marketing@bmt.construction</a></p>
         <img src="img/logososmed.png" class="logo">
     </div>
     <div class="subheader">
-        <img src="img/logo1.png">
-        <p class="bangun">PT. Bangun Manunggal Trisno</p>
-        <p class="company">Construction Company</p><br>
+        <img src="img/logo1.png"><br>
+        <p class="bangun"><a href="#">PT. Bangun Manunggal Trisno</a></p>
+        <p class="construction">Construction Company</p><br>
         <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#">GALERY</a></li>
             <li><a href="#">TEAM WORK</a></li>
             <li><a href="#">CONTACT US</a></li>
-        </ul>
+        </ul><br>
     </div>
     <div class="content">
         <h1>Home</h1>
         <img src="img/gambar1.png">
-            <div class="text=holder">
+            <div class="text-holder">
                 <h3 class="profil"><a href="#">Profil</a></h3>
                 <p>PT. Bangun Manunggal Trisno PT. Bangun Manunggal Trisno telah berpengalaman cukup banyak sejak tahun 1995 sebagai General Contractor. Pekerjaan yang …</p>
             </div>
@@ -40,7 +41,8 @@
             </div>
     </div>
     <div class="company">
-        <img src="img/gambar2.png">
+        <br><br><br><br><br><br><h1>Company Profile</h1>
+        <button>DETAILS</button>
     </div>
     <div class="project">
         <h2 class="our">Our Project</h2>
@@ -48,7 +50,7 @@
         <img src="img/gambar3.png">
     </div>
     <div class="customer">
-        <strong>OUR CUSTOMER</strong><br>
+        <h2>OUR CUSTOMERS</h2><br>
         <img src="img/apg.png">
         <img src="img/smz.png">
         <img src="img/hk.png">
@@ -56,12 +58,27 @@
         <img src="img/wika.png">
     </div>
     <div class="contact">
-        <img src="img/gambar4.png">
+        <br><br><br><br><br><h1>Contact Us</h1>
+        <p>Office :</p>
+        <p>Jln. Maulana Hasanudin, Puri Permata Blok H4/29, Cipondoh, Tangerang
+            Telp : (021) 29433273 – Fax : (021) 29433273</p>
+        <label for="nama">Nama  :</label>
+		<input type="text" name="nama">
+        <br>
+        <label for="email">Email    :</label>
+        <input type="text" name="email">
+        <br>
+        <label for="no.tlp">No.Telp :</label>
+        <input type="text" name="no.tlp">
+        <br>
+		<label for="message">Message    :</label>
+		<textarea name="message"></textarea>
+        <br>
+        <button>Submit</button>
     </div>
     <div class="footer">
-        @copyright 2019. BMT
-        <p>Construction Company | Developed By <a href="#">Rara Theme</a> <a href="#">by WordPress</a>.</p>
+        <p class="copy">@copyright 2019. BMT</p>
+        <p class="by">Construction Company | Developed By <a href="#">Rara Theme</a> <a href="#">by WordPress</a>.</p>
     </div>
-
 </body>
 </html>

@@ -13,21 +13,109 @@
     width: 170px;
 }
 
+.subheader img {
+    float: left;
+}
+
 .subheader ul {
     list-style-type: none;
 }
 
-.subheader .bangun {
-    margin-top: 50px;
-    float: left;
-    padding-top: 10px;
-    width: 90px;
-    margin-left: 10px;
+.subheader ul li {
+    float: right;
+    width: 120px;
 }
 
-.subheader ul li {
-    margin-top: -50px;
+.content h1 {
+    text-align: center;
+}
+
+.content img {
+    margin-left: 200px;
+}
+
+.content .text-holder {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 200px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-width: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content .text-holder2 {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 200px;
+    margin-top: -215px;
+    margin-left: 525px;
+    margin-right: 50px;
+    border-width: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content .text-holder3 {
+    background-color: whitesmoke;
+    width: 300px;
+    height: 200px;
+    margin-top: -215px;
+    margin-left: 950px;
+    margin-right: 50px;
+    border-width: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.company {
+    background-image: url("img/gambar2.jpg");
+    height: 400px;
+    width: 100%;
+}
+
+.company h1 {
+    color: white;
+    text-align: center;
+}
+
+.company button {
+    margin-top: 10px;
+    margin-left: 600px;
+    height: 75px;
+    width: 150px;
+}
+
+.project {
+    text-align: center;
+}
+
+.customer {
+    text-align: center;
+}
+
+.contact {
+    background-image: url("img/gambar5.jpg");
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    background-color: dimgrey;
+    width: 100%;
+    height: 50px;
+}
+
+.footer .copy {
+    float: left;
+}
+
+.footer .by {
     float: right;
-    padding-top: 40px;
-    width: 110px;
 }
